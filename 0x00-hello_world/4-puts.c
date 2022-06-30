@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- *main - Entry point
- *Description - 'the program prints the text described'
- *return : always return 0 (success)
+ * main - Entry point
+ *
+ * Return : Always 0 (Success)
  */
 int main(void)
 {
