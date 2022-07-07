@@ -1,15 +1,16 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
-* more_numbers - prints 0-14 10 times
-*
-* Return: Always 0(success)
-*/
+ *more_numbers - from 0-14 x10
+ *
+ *Description:0-14 x10
+ *
+ *Return:void
+ *
+ */
 void more_numbers(void)
 {
-	int i;
-	int j;
+	int i, j;
 
 	i = 0;
 
