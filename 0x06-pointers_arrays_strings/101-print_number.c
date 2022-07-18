@@ -1,23 +1,26 @@
+#include "main.h"
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
-* main - prints an integer
-*
-*Return: Always 0 (success)
-*/
-
-int main(void)
+* print_number - print numbers chars
+* @n: integer params
+* Return: 0
+**/
+void print_number(int n)
 {
-	int n;
-	int a[5];
-	int *p;
+	unsigned int n1;
 
-	a[2] = 1024;
-	p = &n;
+	n1 = n;
 
-	*(p + 5) = 98;
-  /* ...so that this prints 98\n */
-	printf("a[2] = %d\n", a[2]);
-	return (0);
+	if (n < 0)
+	{
+		_putchar('-');
+		n1 = -n;
+	}
+
+	if (n1 / 10 != 0)
+	{
+		print_number(n1 / 10);
+	}
+	_putchar((n1 % 10) + '0');
 }
