@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
-* main - prints input
+* main - prints output
 *
-* Return: Always 0 (success)
+*Return: Always 0 (success)
 */
 
 int main(void)
